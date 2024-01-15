@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import CaurosalComponent from './Caurosal';
 
 function App() {
   return (
-    <div className="App bg-red-300">
+    <div className="App ">
+      <CaurosalComponent />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
